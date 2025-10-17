@@ -1,0 +1,12 @@
+{
+    "Books":{
+        "Clean Code": {
+            "name": "Clean Code",
+            "description": "A simple guide to have a clean code"
+        },
+        "OOP Python": {
+            "name": "OOP Python",
+            "description": "A simple guide to have a good object oriented code with python"
+        }
+    }
+}
