@@ -6,6 +6,10 @@ namespace Utils
         public string BookDescription { get; private set; }
         public Dictionary<string, string> Book = new Dictionary<string, string>();
 
+        public Menu()
+        {
+            
+        }
         public void MainMenu()
         {
             Console.Clear();
