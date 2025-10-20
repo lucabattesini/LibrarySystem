@@ -2,11 +2,11 @@ namespace Services
 {
     public class Library
     {
-        public string Path { get; set; }
+        var Path = "Data/books.json";
 
-        public Library(string path)
+        public Library()
         {
-            Path = path;
+
         }
         static void CreateBook()
         {
