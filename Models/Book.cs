@@ -1,5 +1,5 @@
 namespace Model
-{
+{ 
     public class Book
     {
         public int Id { get; protected set; }
