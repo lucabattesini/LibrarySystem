@@ -1,14 +1,16 @@
+using Models;
+
 namespace Utils
 {
     public class Menu
     {
-        public string BookName { get; private set; }
-        public string BookDescription { get; private set; }
         public Dictionary<string, string> Book = new Dictionary<string, string>();
+
+        var book = new Book(); 
 
         public Menu()
         {
-            
+
         }
         public void MainMenu()
         {
